@@ -1,0 +1,15 @@
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-02-19 19:00:04
+project --topLevelPackage com.gmail.volodymyrdotsenko.qr
+jpa setup --database MYSQL --provider HIBERNATE 
+hint
+entity jpa --class ~.domain.UserData --table users --activeRecord --serializable 
+field string --fieldName userName 
+field string --fieldName firstName 
+field string --fieldName lastName
+field string --fieldName email
+web mvc setup
+security setup
+web mvc all --package ~.web
+q
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-02-19 19:25:41
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-02-21 20:28:35

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_gmail_volodymyrdotsenko_qr_domain_UserData" object="${userdata}" path="/userdatas" z="z/ZYr1ocU/UdcBN7EgBhQfMNB0U=">
+        <field:display field="firstName" id="s_com_gmail_volodymyrdotsenko_qr_domain_UserData_firstName" object="${userdata}" z="Rw6lwm+jQLe/luiZPGdXH/9g8tE="/>
+        <field:display field="lastName" id="s_com_gmail_volodymyrdotsenko_qr_domain_UserData_lastName" object="${userdata}" z="Zbt5x70tMSkGmdIz1vVta/ajdQY="/>
+        <field:display field="email" id="s_com_gmail_volodymyrdotsenko_qr_domain_UserData_email" object="${userdata}" z="MaDW5AU7N1CtI4zzrpPSXDs8yBQ="/>
+        <field:display field="password" id="s_com_gmail_volodymyrdotsenko_qr_domain_UserData_password" object="${userdata}" z="+hd55o9TwnrHDmR2rFiLnoGwaZI="/>
+        <field:display date="true" dateTimePattern="${userData_regdate_date_format}" field="regDate" id="s_com_gmail_volodymyrdotsenko_qr_domain_UserData_regDate" object="${userdata}" z="3hySNlKLfsBm8OUsVTOebGOwFAo="/>
+        <field:display date="true" dateTimePattern="${userData_expired_date_format}" field="expired" id="s_com_gmail_volodymyrdotsenko_qr_domain_UserData_expired" object="${userdata}" z="UkwgRGiF4kMopPHkO3oBJkeQFTg="/>
+        <field:display field="lockUser" id="s_com_gmail_volodymyrdotsenko_qr_domain_UserData_lockUser" object="${userdata}" z="ExDAEY4if3yW9idYbEdsc8/JqUU="/>
+    </page:show>
+</div>

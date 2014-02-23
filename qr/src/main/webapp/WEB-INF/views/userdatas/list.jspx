@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_gmail_volodymyrdotsenko_qr_domain_UserData" items="${userdatas}" z="1pg2jwBlW6MSvnhNbKCL04De6iU=">
+        <table:table data="${userdatas}" id="l_com_gmail_volodymyrdotsenko_qr_domain_UserData" path="/userdatas" typeIdFieldName="userName" z="Mi4CCQm5KyN0srdmNDd/76VWGvU=">
+            <table:column id="c_com_gmail_volodymyrdotsenko_qr_domain_UserData_firstName" property="firstName" z="gwUo4zj8U9GpVZWoMdpvn2nqY/8="/>
+            <table:column id="c_com_gmail_volodymyrdotsenko_qr_domain_UserData_lastName" property="lastName" z="gaNRodFdJ9Vsag7LWwQsmMIs7dc="/>
+            <table:column id="c_com_gmail_volodymyrdotsenko_qr_domain_UserData_email" property="email" z="4ojmDCmY/tJ0aMOir0OzKyoDBb8="/>
+            <table:column id="c_com_gmail_volodymyrdotsenko_qr_domain_UserData_password" property="password" z="8//kJWRVc0Klfnj8VRay72QJO5Q="/>
+            <table:column date="true" dateTimePattern="${userData_regdate_date_format}" id="c_com_gmail_volodymyrdotsenko_qr_domain_UserData_regDate" property="regDate" z="ft1aeKLjbVgpycjmqjvNr36HvQE="/>
+            <table:column date="true" dateTimePattern="${userData_expired_date_format}" id="c_com_gmail_volodymyrdotsenko_qr_domain_UserData_expired" property="expired" z="SrjKQ3J3C0rC+18O4bvmppczGa4="/>
+        </table:table>
+    </page:list>
+</div>

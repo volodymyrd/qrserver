@@ -1,0 +1,13 @@
+<aspectj>
+<aspects>
+<aspect name="com.gmail.volodymyrdotsenko.qr.domain.UserData_Roo_Configurable"/>
+<aspect name="com.gmail.volodymyrdotsenko.qr.domain.UserData_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.gmail.volodymyrdotsenko.qr.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.gmail.volodymyrdotsenko.qr.domain.UserData_Roo_ToString"/>
+<aspect name="com.gmail.volodymyrdotsenko.qr.domain.UserData_Roo_Serializable"/>
+<aspect name="com.gmail.volodymyrdotsenko.qr.domain.UserData_Roo_JavaBean"/>
+<aspect name="com.gmail.volodymyrdotsenko.qr.web.UserDataController_Roo_Controller"/>
+<aspect name="com.gmail.volodymyrdotsenko.qr.domain.UserData_Roo_Jpa_Entity"/>
+</aspects>
+</aspectj>
+

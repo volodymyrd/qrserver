@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_gmail_volodymyrdotsenko_qr_domain_UserData" modelAttribute="userData" path="/userdatas" render="${empty dependencies}" z="TY3uoBmd/0hxum0qDGPq2F2bjJQ=">
+        <field:input field="userName" id="c_com_gmail_volodymyrdotsenko_qr_domain_UserData_userName" required="true" z="ccBB+QmsoFT3iuAfhhMt00Jf00M="/>
+        <field:input field="firstName" id="c_com_gmail_volodymyrdotsenko_qr_domain_UserData_firstName" z="67ca1qHb9tVdcZ8AnCtReDY1plc="/>
+        <field:input field="lastName" id="c_com_gmail_volodymyrdotsenko_qr_domain_UserData_lastName" z="33rmC25r3YAwhmPIwm57CeeEZ/o="/>
+        <field:input field="email" id="c_com_gmail_volodymyrdotsenko_qr_domain_UserData_email" validationMessageCode="field_invalid_email" z="KiDYb8Qo6RRwnux5buOi1cFk7Q8="/>
+        <field:input field="password" id="c_com_gmail_volodymyrdotsenko_qr_domain_UserData_password" z="lMO7LlkcrIz0UZDOv60AYn1iHuw="/>
+        <field:datetime dateTimePattern="${userData_regdate_date_format}" field="regDate" id="c_com_gmail_volodymyrdotsenko_qr_domain_UserData_regDate" z="O1dtCreFsxvYi28E1fOdSlHjJTA="/>
+        <field:datetime dateTimePattern="${userData_expired_date_format}" field="expired" id="c_com_gmail_volodymyrdotsenko_qr_domain_UserData_expired" z="umxcEyutqFxvLtxooVBH7Lgulzk="/>
+        <field:checkbox field="lockUser" id="c_com_gmail_volodymyrdotsenko_qr_domain_UserData_lockUser" z="l3mRhhyFDMLAEFbq4CaSwJbiY74="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_gmail_volodymyrdotsenko_qr_domain_UserData" render="${not empty dependencies}" z="uBOXK22BZviILc59XPNqG0fAaLA="/>
+</div>
