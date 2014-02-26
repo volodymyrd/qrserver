@@ -73,6 +73,8 @@
 			<!-- -->
 		</div>
 	</util:panel>
+	
+	<spring:url value="/qr/is_login/" var="is_login_url"/>
 
 	<script>
 	<![CDATA[
@@ -92,7 +94,7 @@
 			setInterval(function(){
 				$.ajax({
 					type : 'POST',
-					url : '/qr/qr/is_login/' + qr_value,
+					url : '${is_login_url}' + qr_value,
 					success : function (data) {
 						var d = $.parseJSON(data);
 						if(d.confirm) {
